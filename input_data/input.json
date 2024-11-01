@@ -1,0 +1,66 @@
+{
+   "courses": [
+        {
+            "course_code": "CS101",
+            "course_name": "Introduction to Programming",
+            "lecturer": "Dr. Smith",
+            "student_groups": ["Group A", "Group B"],
+            "duration": 2,
+            "timeslot": "Monday 9:00-11:00"
+        },
+        {
+            "course_code": "CS201",
+            "course_name": "Data Structures",
+            "lecturer": "Dr. Johnson",
+            "student_groups": ["Group A"],
+            "duration": 3,
+            "timeslot": "Monday 11:00-14:00"
+        }
+    ],
+   "lecturers": [
+        {
+            "lecturer_id": "1",
+            "name": "Dr. Smith",
+            "workload": 40,
+            "available_timeslots": ["Monday 9:00-11:00", "Wednesday 9:00-11:00"]
+        },
+        {
+            "lecturer_id": "2",
+            "name": "Dr. Johnson",
+            "workload": 40,
+            "available_timeslots": ["Monday 11:00-14:00", "Thursday 10:00-13:00"]
+        },
+        {
+            "lecturer_id": "3",
+            "name": "Prof. Adams",
+            "workload": 40,
+            "available_timeslots": ["Tuesday 9:00-10:00", "Thursday 9:00-10:00"]
+        }
+    ],
+  "rooms": [
+    {
+        "room_id": "Room 101",
+        "capacity": 50,
+        "available_timeslots": ["Monday 9:00-11:00", "Monday 11:00-14:00", "Tuesday 9:00-17:00"]
+    },
+    {
+        "room_id": "Room 102",
+        "capacity": 50,
+        "available_timeslots": ["Monday 9:00-11:00", "Monday 11:00-14:00", "Tuesday 9:00-17:00"]
+    }
+],
+
+   "student_groups": [
+    {
+        "group_id": "Group A",
+        "students": 25,
+        "courses": ["CS101", "CS102"]
+    },
+    {
+        "group_id": "Group B",
+        "students": 20,
+        "courses": ["CS101"]
+    }
+]
+
+}
